@@ -3,6 +3,7 @@ name: Blogger Auto Post
 on:
   schedule:
     - cron: '0 8 * * *'  # सकाळी 8 वाजता चालवायला सेट (रोज)
+  workflow_dispatch:  # हे जोडल्याने तू मॅन्युअली रन करू शकतोस
 
 jobs:
   blogger-post:
